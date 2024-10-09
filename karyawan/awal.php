@@ -15,7 +15,7 @@ error_reporting(0);
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Beranda Karyawan</title>
+    <title>Beranda Siswa</title>
 
        
   
@@ -51,7 +51,7 @@ error_reporting(0);
             <div class="header-mobile__bar">
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
-                        <a class="logo" href="#">
+                        <a class="logo" href="assets/img/logo.jpg">
                             
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
@@ -81,7 +81,7 @@ error_reporting(0);
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-<h1>karyawan</h1>
+<h1>Siswa</h1>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -107,7 +107,7 @@ error_reporting(0);
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search" value="Absen Karyawan" readonly="" />
+                                <input class="au-input au-input--xl" type="text" name="search" value="Absensi Siswa" readonly="" />
                                 
                             </form>
                             <div class="header-button">
@@ -241,7 +241,7 @@ error_reporting(0);
                                                
                                                 <td>
                                                 
-                                               <a href="?m=karyawan&s=title"><button class="btn btn-warning">Isi Form Jika Tidak Hadir / Lembur</button></a>
+                                               <a href="?m=karyawan&s=title"><button class="btn btn-warning">Isi Form Jika Tidak Hadir</button></a>
                                             </td>
                                             </tr>
                                            

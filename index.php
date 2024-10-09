@@ -1,4 +1,4 @@
- z<?php
+<?php
 session_start();
 include ("koneksi.php");
 
@@ -12,7 +12,7 @@ include ("koneksi.php");
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Absensi Karyawan</title>
+  <title>Absensi Siswa</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -52,7 +52,7 @@ include ("koneksi.php");
       <h1 class="container d-flex align-items-center">
         <!-- <a href="index.html">DEVanoda</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/Logo-MPE.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.php">Home</a></li>
@@ -60,7 +60,7 @@ include ("koneksi.php");
           <li class="dropdown"><a class="getstarted"><span>Log In</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="login.php" target="_blank">Admin</a></li>
-              <li><a href="karyawan/login_karyawan.php" target="_blank">Karyawan</a></li>
+              <li><a href="karyawan/login_karyawan.php" target="_blank">Siswa</a></li>
             </ul>
           </li>
         </ul>
@@ -82,8 +82,8 @@ include ("koneksi.php");
         <div class="carousel-item active" style="background-image: url(assets/img/slide/bg1.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown"><span>Absensi Karyawan PT. Mandiri Perkasa Elektrika</span></h2>
-              <p class="animate__animated animate__fadeInUp">Sistem Absensi Karyawan PT. Mandiri Perkasa Elektrika</p>
+              <h2 class="animate__animated animate__fadeInDown"><span>Absensi Siswa SMK Gema Karya Bahana</span></h2>
+              <p class="animate__animated animate__fadeInUp"></p>
             </div>
           </div>
         </div>
@@ -92,8 +92,8 @@ include ("koneksi.php");
         <div class="carousel-item" style="background-image: url(assets/img/slide/bg2.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">PT. Mandiri Perkasa Elektrika</h2>
-              <p class="animate__animated animate__fadeInUp">One Stop Solution for Piping, Electrical, Instrument & Mechanical Supply</p>
+              <h2 class="animate__animated animate__fadeInDown">Absensi Siswa SMK Gema Karya Bahana</h2>
+              <p class="animate__animated animate__fadeInUp"></p>
             </div>
           </div>
         </div>
@@ -102,8 +102,8 @@ include ("koneksi.php");
         <div class="carousel-item" style="background-image: url(assets/img/slide/bg3.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">PT. Mandiri Perkasa Elektrika</h2>
-              <p class="animate__animated animate__fadeInUp">Authorized Distributor of FLV Industrial Valves</p>
+              <h2 class="animate__animated animate__fadeInDown">Absensi Siswa SMK Gema Karya Bahana</h2>
+              <p class="animate__animated animate__fadeInUp"></p>
             </div>
           </div>
         </div>
@@ -130,16 +130,15 @@ include ("koneksi.php");
 
         <div class="row content">
           <div class="col-lg-6">
-            <h2>Sistem Absensi Karyawan PT. Mandiri Perkasa Elektrika</h2>
-            <img src="assets/img/Logo-MPE.png" style="border:0; width: 250px; height: 90px;">
+            <h2>Sistem Absensi Siswa SMK Gema Karya Bahana</h2>
+            <img src="assets/img/logo.jpg" style="border:0; width:300px 250px; height: 90px;">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-            WE ARE BEST SUPPLIER COMPANY IN INDONESIA
-OUR VISION, TO BE A LEADER AND TRUSTED COMPANY IN THE PROVIDING OF QUALITY PRODUCTS, COMPETITIVE AND PROVIDING SOLUTIONS TO ACCELERATE THE GROWTH OF INDUSTRY IN INDONESIA.<br><br>
-PT Mandiri Perkasa Elektrika is a procurement company. We are engaged in the procurement of Electrical & Instruments, Material and Mechanical material as well.
-
-Our products are widely used in various industrial fields such as the oil and gas industry, mining, Petrochemical, F&B and other industries that have hazardous areas.
+            Selamat datang di Sistem Absensi SMK Gema Karya Bahana, solusi absensi yang sederhana dan efektif untuk mendukung kegiatan belajar mengajar. 
+            Dengan pencatatan yang cepat dan akurat, sistem ini dapat diakses kapan saja dan di mana saja, serta menyediakan laporan data absensi secara real-time. 
+            Kami berkomitmen untuk menciptakan lingkungan belajar yang lebih baik melalui teknologi. Bergabunglah bersama kami untuk mewujudkan pendidikan yang lebih berkualitas. 
+            Sistem Absensi SMK Gema Karya Bahana: Memudahkan Kehadiran, Meningkatkan Prestasi.
             </p>
           </div>
         </div>
@@ -237,7 +236,7 @@ Our products are widely used in various industrial fields such as the oil and ga
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>PT. Mandiri Perkasa Elektrika</span></strong>. All Rights Reserved | Design by <a href="http://futurewebdesign.my.id/">Future Web Design</a>
+        &copy; Copyright <strong><span>SMK Gema Karya Bahana</span></strong>. All Rights Reserved</a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
